@@ -1,2 +1,2 @@
 # Covid19Awareness
-Front=end Preject
+Front-end Project
