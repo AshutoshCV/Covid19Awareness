@@ -1,4 +1,3 @@
-
 /* Navbar start */
 
 nav {
@@ -75,6 +74,19 @@ h1{
   3s linear slidein,
   3s ease-out 5s slideout;
   word-spacing: 25%;
+  padding-top: 3.5%;
+}
+
+@media (max-width: 768px) {
+  h1{
+    padding-top: 0;
+  }
+
+  .image1 img{
+    width: 90%;
+    padding-left: 0;
+    margin-left: 5%;
+  }
 }
 
 /* div 2: symptoms */
@@ -106,6 +118,34 @@ h1{
   height: 100%;
 }
 
+@media (max-width:768px) {
+  .one-container{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one-container img{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .symptoms h4{
+    background-color: #78C1F3;
+    color: black;
+    padding-left:7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  .symptoms>h2{
+    padding-left: 20%;
+  }
+  
+ }
+
 
 /* div three: how it spreads */
 
@@ -132,6 +172,23 @@ h1{
   padding-left: 40%;
 }
 
+
+@media (max-width:768px){
+  .two-container{
+    padding: 5%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .spread img{
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 5%;
+  }
+
+  .spread h2{
+    padding-left: 25%;
+  }
+}
 
 
 /* div four: precautions */
@@ -189,6 +246,23 @@ h1{
     -moz-transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%);
+  }
+}
+
+@media (max-width:768px){
+  .three-container{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .precautions img{
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 5%;
+  }
+  .precautions>h2{
+    padding-left: 35%;
   }
 }
 
@@ -260,18 +334,23 @@ h1{
   margin-top: 15px;
 }
 
-
-
-
-
 .one-container, .three-container, .two-container, .four-container, .five-container, .links{
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
+@media (max-width:768px){
+  .imp-info-area>h2{
+    padding-left: 3.5%;
+  }
+}
+
+
 .links>h2{
   padding-left: 45%;
 }
+
+
 
 /* div six */
 
@@ -329,6 +408,12 @@ h1{
 }
 .social-hub .block{
   padding-bottom: 5%;
+}
+
+@media (max-width:768px){
+  .links>h2{
+    padding-left: 35%;
+  }
 }
 
 /* footer */
